@@ -1,18 +1,15 @@
 import React from "react";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Premium from "./components/Premium";
-import Support from "./components/Support";
-import Download from "./components/Download";
+import Content from "./pages/Content";
+import Footer from "./pages/Footer";
+import Header from "./pages/Header";
+import Premium from "./pages/Premium";
+import Support from "./pages/Support";
+import Download from "./pages/Download";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from 'react-router-dom'
-import { Component } from "react/cjs/react.production.min";
-import react from "react";
 
 function App() {
   return (
@@ -25,7 +22,7 @@ function App() {
         <Route exact path="/support" element={<Support />} />
         <Route exact path="/download" element={<Download />} />
       </Routes>
-      <Footer />
+    {/*   <Footer /> */}
     </Router>
   )
 }
