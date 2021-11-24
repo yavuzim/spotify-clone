@@ -1,0 +1,81 @@
+
+footer{
+    background-color:var(--background);
+    color: #fff;
+    padding-bottom: 5rem;
+}
+.footer-logo .logo-text{
+    height: 2.5rem;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+} 
+.footer-top{
+    width: inherit;
+}
+.footer-list{
+    display: flex;
+    width: 50rem;
+}
+.footer-list .list .title{
+    font-size: .8rem;
+    font-weight: 700;
+    color: #919496;
+}
+.footer-list .list ul li a{
+    color: #fff;
+}
+.footer-list .list ul li a:hover{
+    color: var(--green);
+}
+.list{
+    padding-right: 7rem;
+    padding-left: 1rem;
+    line-height: 2.5rem;
+}
+.social-list{
+    display: flex;
+}
+.social{
+    background-color: #222326;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: .5rem;
+}
+.icon{
+    font-size: 1.5rem;
+    margin-top: .7rem;
+    cursor: pointer;
+}
+.icon:hover{
+   color: var(--green);
+}
+.information {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.information .information-list ul li{
+    display: inline;   
+    padding-right: 1rem;
+    font-size: .8rem;
+}
+.information ul li a{color: #5d5d5e;}
+.information ul li a:hover{color: var(--green);}
+.information-right div{
+    display: flex;
+    padding-left: .5rem;
+    font-size: 12px;
+}
+.information-right-top{color: var(--green);
+}
+.information-right img{
+    width: 1rem;
+}

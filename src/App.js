@@ -20,9 +20,9 @@ function App() {
         <Route exact path="/" element={<Content />} />
         <Route exact path="/premium" element={<Premium />} />
         <Route exact path="/support" element={<Support />} />
-        <Route exact path="/download" element={<Download />} />        
+        <Route exact path="/download" element={<Download />} />
       </Routes>
-     {/*   <Footer />  */}
+      <Footer />
     </Router>
   )
 }

@@ -1,0 +1,284 @@
+
+#premium-section{
+    background-color: rebeccapurple;
+}
+.premium-container{
+    color: #fff;    
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+}
+.box-top{
+    background-color: #1d75de;
+    padding-top:4em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3rem;
+}
+.top-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.top-paragraph{
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+    letter-spacing: 0.5px;
+}
+.buttons button{
+    border: 2px solid rgb(25, 20, 20);
+    border-radius: 500px;
+    padding: 17px 38px;
+}
+.buttons button:nth-child(1){
+    background-color: #191414;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: inherit;    
+    letter-spacing: 2px;
+    letter-spacing: 3px;
+    line-height: 1;
+}
+.buttons button:nth-child(2){
+    background-color: #1D75DE;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: inherit;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+    border-color: #ffff;
+    letter-spacing: 4px;
+    line-height: 1;
+}
+.buttons button:hover{
+    transform: translate(1)
+}
+.conditions{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-block-start: 4em;
+    color: #ffff;
+    width: 38rem;
+}
+.conditions a{
+    color: #ffff;
+    border-bottom: 1px solid;
+}
+.box-middle{
+   text-align: center;
+   background-color: #fff;
+   padding-top: 5rem;
+   padding-bottom: 150px;
+}
+.box-middle h2{
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 900;
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.015em;
+}
+.grid{
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 0 12rem 0 12rem;
+}
+.card{
+    width: 300px;
+    margin-top: 4rem;
+}
+.grid .card:nth-child(1) .image{
+    width: 142px;
+    height: 142px;
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f");
+    background-repeat: no-repeat;
+    background-size: 142px; 
+    background-size: contain;
+    display: inline-block;
+}
+.grid .card:nth-child(2) .image{
+    width: 142px;
+    height: 142px;
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137");
+    background-repeat: no-repeat;
+    background-size: 142px; 
+    background-size: contain;
+    display: inline-block;
+}
+.grid .card:nth-child(3) .image{
+    width: 142px;
+    height: 142px;
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67");
+    background-repeat: no-repeat;
+    background-size: 142px; 
+    background-size: contain;
+    display: inline-block;
+}
+.grid .card:nth-child(4) .image{
+    width: 142px;
+    height: 142px;
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012");
+    background-repeat: no-repeat;
+    background-size: 142px; 
+    background-size: contain;
+    display: inline-block;
+}
+.card .grid-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    font-size: 21px;
+    line-height: 1.3em;
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: 0.25px;
+}
+.card .grid-text{
+    line-height: 1.5;
+    font-size: 16px;  
+}
+.box-bottom{
+   display: block;
+   background-color: #efefef;
+   padding-top: 4rem;
+}
+.box-bottom .bottom-title{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 1;
+    text-align: center;
+    box-sizing: border-box;  
+}
+.box-bottom .bottom-text{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0px;
+    text-align: center;
+}
+.bottom-grid{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4,19rem);
+    justify-content: center;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}
+.bottom-card{
+    width: 16rem;
+    height: auto;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+}
+.general-card{
+    margin: 1rem 1rem 0 1rem;
+}
+.card-price-infor{
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    color: #fff;
+    background-color: rgb(225, 67, 81);
+    margin-bottom: 0.8rem;
+}
+.card-payment-infor{
+    color: rgb(46, 119, 208);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(46, 119, 208);
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    padding: 0.1rem;
+    padding-left: 0.4rem;
+    font-weight: 900;
+    font-size: 14px;
+}
+.bottom-card h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+}
+.bottom-card p{
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+}
+hr{
+    border-width: 1px;
+    border-style: inset;
+    margin-top: 1.2rem;
+}
+.dif-hr{
+    margin-top: 3.5rem;
+}
+.card-middle{
+    height: 20rem;
+}
+.card-middle ul li{
+  display: flex;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+.card-middle ul li p{
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+    padding-left: 1rem;
+    font-weight: 500;
+}
+.card-btn-field{  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-btn-field button{  
+    border-radius: 500px;
+    background-color: #191414;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 17px 48px;
+    font-size: inherit;
+}
+.card-condutions{
+    text-align: center;
+}
+.card-condutions a{
+    box-sizing: border-box;
+    color: inherit;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.card-condutions a:hover{
+    color:var(--green);
+}
+.card-condutions p,.card-condutions p>a{
+    margin-top: 12px;
+    color: rgb(83, 83, 83);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.card-condutions p>a{
+    border-bottom: 1px solid;
+    padding: 0;
+    display: inline-block;
+}

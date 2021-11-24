@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 function Content() {
     return (
-        <section>
+        <section id="content-section">
             <div className="content-container">
                 <div className="content">
                     <div className="contect-title">
@@ -16,9 +16,6 @@ function Content() {
                     </div>
                 </div>
                 <div className="sus"></div>
-
-
-
             </div>
         </section>
     )
