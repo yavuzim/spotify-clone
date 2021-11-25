@@ -1,0 +1,124 @@
+.download-container{
+    width: 100%;
+}
+.download-top{
+    background-color: rgb(25, 230, 140);
+}
+.top-field{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+.laptop-img{
+    width: 9%;
+}
+.ok-img{
+    position: absolute;
+    width: 25%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.top-field h1{
+    padding-bottom: 24px;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 0px 0px 0.67em;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-top: 1rem;
+}
+.top-field p{
+    margin-bottom: 24px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 0px 0px 1em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.top-field button{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+    cursor: pointer;
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+}
+.download-middle{
+    background-color: white;
+    padding: 4rem 0;
+}
+.mid-field{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mid-field h3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    display: block;
+    padding: 0px 0px 0.75em;
+    font-weight: 900;
+}
+.mid-field p{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    display: block;
+    padding: 0px 0px 1em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.stores img{
+    padding: 0 1rem ;
+}
+.download-bottom{
+    background-color: rgb(34, 35, 38);
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+.bottom-field{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px 40px;
+    text-align: center;
+}
+.bottom-field img{
+    width: 38%;
+}
+.bottom-field h3{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 0px 0px 0.75em;
+    color: #ffffff;;
+}
+.bottom-field ul{
+    display: flex;
+    justify-content: center;
+}
+.bottom-field ul li{
+    color: rgb(29, 185, 84);
+    text-decoration: underline;
+    padding: 0 1rem;
+}
+.bottom-field ul li:nth-child(1),ul li:nth-child(2),ul li:nth-child(3){
+   color: #ffffff;
+   text-decoration: none;
+}
